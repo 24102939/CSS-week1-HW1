@@ -3,7 +3,7 @@ body{
   font-size: 150%;
 }
 header{
-background-color: #dcdee5;
+background-color: #e5dcdf;
 padding: 20px;
 border-radius: 15px;
 }
@@ -13,7 +13,7 @@ header img{
     margin: 30px auto;
 }
 nav{
-background-color: #162e47;
+background-color: #47162f;
 padding:20px;
 border-radius:12px;
 }
@@ -33,6 +33,9 @@ nav ul{
 nav li{
     display: inline-block;
 }
+nav img {
+  width: 10%;
+}
 img{
 width: 180pxpx;
 }
@@ -43,7 +46,7 @@ border-radius:15px;
 }
 
 footer{
-background:#2d456a;
+background:#642d6a;
 color:white;
 text-align:center;
 padding:20px;
@@ -51,10 +54,10 @@ border-radius:10px;
 
 }
 
-li{
+/* li{
 display: inline-block;
 width: 0 40px;
-}
+} */
 
 h1{
 text-align: center;
@@ -69,4 +72,23 @@ p{
 
 line-height: 1.5;
 
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* Hình ảnh trong lớp grid */
+.grid img {
+  width: 100%;
+}
+
+/* Flexbox cho lớp flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
